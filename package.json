@@ -1,0 +1,31 @@
+{
+  "name": "prueba-tecnica-stack-mean",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goyoxjg/test-nodejs.git"
+  },
+  "author": "Jose Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goyoxjg/test-nodejs/issues"
+  },
+  "homepage": "https://github.com/Goyoxjg/test-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
